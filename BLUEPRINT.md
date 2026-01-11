@@ -19,10 +19,10 @@
 - [x] Component: `Footer` (Clean, Grid Layout).
 - [x] Global CSS: Set `stone-50` background.
 
-### ⏳ Phase 3: The Home Page (Static + Visuals)
-- [ ] Component: `HeroSection` (Big Typography, minimal image).
-- [ ] Component: `ServicesGrid` (Clean list of services).
-- [ ] Component: `AboutSection` (Text + Image layout).
+### ✅ Phase 3: The Home Page (Static + Visuals)
+- [x] Component: `HeroSection` (Big Typography, minimal image).
+- [x] Component: `ServicesGrid` (Clean list of services).
+- [x] Component: `AboutSection` (Text + Image layout).
 
 ### ⏳ Phase 4: Dynamic Portfolio (Supabase Integration)
 - [ ] Database Check: Ensure `projects` table exists.
