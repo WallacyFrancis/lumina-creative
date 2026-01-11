@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export function AboutSection() {
   return (
@@ -24,8 +25,13 @@ export function AboutSection() {
         </div>
 
         {/* Image Container */}
-        <div className="w-full aspect-[3/4] rounded-lg overflow-hidden bg-stone-200">
-          <div className="w-full h-full bg-gradient-to-br from-stone-200 via-stone-300 to-stone-200" />
+        <div className="relative w-full aspect-[3/4] rounded-lg overflow-hidden bg-stone-200">
+          <Image
+            src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80"
+            alt="Creative process and design thinking"
+            fill
+            className="object-cover rounded-lg"
+          />
         </div>
       </div>
     </section>

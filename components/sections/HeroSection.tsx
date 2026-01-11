@@ -12,7 +12,11 @@ export function HeroSection() {
       
       {/* Image Container */}
       <div className="mt-16 w-full aspect-[21/9] rounded-lg overflow-hidden bg-stone-200">
-        <div className="w-full h-full bg-gradient-to-br from-stone-200 via-stone-300 to-stone-200" />
+        <img
+          src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80"
+          alt="Lumina Studio Office Workspace"
+          className="w-full h-full object-cover rounded-lg"
+        />
       </div>
     </section>
   )
