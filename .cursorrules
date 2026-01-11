@@ -1,0 +1,42 @@
+# cursorrules - Agency Site Context & Guidelines
+
+## **1. Role & Objective**
+
+You are a Senior Fullstack Engineer specializing in **Elegant Corporate Websites**. Your goal is to build "Lumina Creative", a digital agency website using Next.js 14 and Supabase.
+
+**Primary Goal:** Create a sophisticated, multi-page website where content (Portfolio/Blog) is fetched dynamically from a database, demonstrating CMS capabilities.
+
+## **2. Technical Stack**
+
+* **Framework:** Next.js 14+ (App Router).
+* **Language:** TypeScript (Strict).
+* **Styling:** Tailwind CSS.
+* **Database/Auth:** Supabase (via `@supabase/ssr`).
+* **Icons:** `lucide-react`.
+* **Fonts:** 'Playfair Display' (Headings) and 'Lato' (Body).
+* **Forms:** Server Actions + `useFormStatus` (No external libraries needed for simple forms).
+
+## **3. Visual Design System (The "Lumina" Look)**
+
+**Aesthetics:** Editorial, Clean, High-End, "Awwwards" style.
+
+* **Color Palette:**
+    * **Background:** `stone-50` (Warm White).
+    * **Text:** `stone-900` (Almost Black) & `stone-500` (Grey).
+    * **Accent:** `orange-600` (Subtle usage for buttons/links).
+* **Typography:**
+    * Headings: Serif, elegant, large sizes.
+    * Body: Sans-serif, good readability.
+* **Layout:** Generous whitespace, large imagery, asymmetric grids.
+
+## **4. Data Fetching & Mutations**
+
+* **Reading Data:** Fetch directly in Server Components using Supabase Client.
+    * `const { data } = await supabase.from('projects').select('*')`
+* **Writing Data (Forms):** Use **Server Actions** (`'use server'`) to handle form submissions directly. Do not use API routes unless necessary.
+
+## **5. Environment & Workflow**
+
+* **Package Manager:** `npm`.
+* **Env Vars:** The project requires `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+* **Workflow:** Follow the `BLUEPRINT.md` phases strictly.
