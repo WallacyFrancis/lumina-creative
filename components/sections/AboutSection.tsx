@@ -10,7 +10,7 @@ export function AboutSection() {
             Design is not just what it looks like.
           </h2>
           <p className="font-sans text-lg text-stone-500 leading-relaxed mb-8">
-            It's how it works. We believe in function-first design, where every
+            It&apos;s how it works. We believe in function-first design, where every
             element serves a purpose and enhances the user experience. At Lumina,
             we combine strategic thinking with creative excellence to deliver
             solutions that not only look beautiful but drive real results.
