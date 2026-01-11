@@ -20,7 +20,7 @@ const services = [
 
 export function ServicesSection() {
   return (
-    <section className="container mx-auto px-6 py-32">
+    <section className="container mx-auto px-6 py-16 md:py-32">
       <div className="mb-16">
         <h2 className="font-sans text-sm font-semibold text-stone-500 uppercase tracking-widest mb-4">
           Our Expertise

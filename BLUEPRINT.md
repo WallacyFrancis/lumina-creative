@@ -30,13 +30,13 @@
 - [x] Component: `ProjectCard` (Image, Title, Tags).
 - [x] Logic: Fetch data server-side and render.
 
-### ⏳ Phase 5: Contact & Server Actions
-- [ ] Database Check: Ensure `contacts` table exists.
-- [ ] Component: `ContactForm`.
-- [ ] Logic: Create Server Action to insert data into Supabase `contacts`.
-- [ ] UI: Success state/Toast notification.
+### ✅ Phase 5: Contact & Server Actions
+- [x] Database Check: Ensure `contacts` table exists.
+- [x] Component: `ContactForm`.
+- [x] Logic: Create Server Action to insert data into Supabase `contacts`.
+- [x] UI: Success state/Toast notification.
 
-### ⏳ Phase 6: Polish & Deploy
-- [ ] Responsive adjustments.
-- [ ] SEO Metadata.
+### ✅ Phase 6: Polish & Deploy
+- [x] Responsive adjustments.
+- [x] SEO Metadata.
 - [ ] Deploy to Vercel or Netlify (easier integration with Supabase env vars) or Firebase.

@@ -1,11 +1,11 @@
 export function HeroSection() {
   return (
-    <section className="min-h-[80vh] flex flex-col justify-center container mx-auto px-6 py-24">
+    <section className="min-h-[80vh] flex flex-col justify-center container mx-auto px-6 py-16 md:py-32">
       <div className="max-w-4xl">
-        <h1 className="text-5xl md:text-7xl font-serif font-medium leading-tight text-stone-900">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-serif font-medium leading-tight text-stone-900">
           We craft digital experiences for the modern web.
         </h1>
-        <p className="text-xl text-stone-500 max-w-2xl mt-6 font-sans">
+        <p className="text-lg md:text-xl text-stone-500 max-w-2xl mt-6 font-sans">
           Lumina is a strategic design agency helping brands tell their story.
         </p>
       </div>

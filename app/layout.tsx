@@ -16,8 +16,17 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Lumina Creative",
-  description: "Digital Agency Website",
+  title: {
+    template: '%s | Lumina Creative',
+    default: 'Lumina Creative | Strategic Design Agency',
+  },
+  description: 'Lumina is a digital agency crafting world-class web experiences for modern brands.',
+  keywords: ['Design Agency', 'Web Development', 'Next.js', 'Branding'],
+  openGraph: {
+    title: 'Lumina Creative | Strategic Design Agency',
+    description: 'Lumina is a digital agency crafting world-class web experiences for modern brands.',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
