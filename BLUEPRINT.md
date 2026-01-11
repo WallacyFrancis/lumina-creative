@@ -7,17 +7,17 @@
 
 ## 2. Implementation Roadmap
 
-### ⏳ Phase 1: Setup & Database Connection
-- [ ] Initialize Next.js project.
-- [ ] Install Supabase packages (`@supabase/ssr` `@supabase/supabase-js`).
-- [ ] Configure Environment Variables (`.env.local`).
-- [ ] Setup Supabase Client helper (`lib/supabase.ts`).
-- [ ] Config Fonts (Playfair Display + Lato).
+### ✅ Phase 1: Setup & Database Connection
+- [x] Initialize Next.js project.
+- [x] Install Supabase packages (`@supabase/ssr` `@supabase/supabase-js`).
+- [x] Configure Environment Variables (`.env.local`).
+- [x] Setup Supabase Client helper (`lib/supabase.ts`).
+- [x] Config Fonts (Playfair Display + Lato).
 
-### ⏳ Phase 2: Core Layout & Branding
-- [ ] Component: `Navbar` (Minimalist, Serif Logo).
-- [ ] Component: `Footer` (Clean, Grid Layout).
-- [ ] Global CSS: Set `stone-50` background.
+### ✅ Phase 2: Core Layout & Branding
+- [x] Component: `Navbar` (Minimalist, Serif Logo).
+- [x] Component: `Footer` (Clean, Grid Layout).
+- [x] Global CSS: Set `stone-50` background.
 
 ### ⏳ Phase 3: The Home Page (Static + Visuals)
 - [ ] Component: `HeroSection` (Big Typography, minimal image).
