@@ -24,11 +24,11 @@
 - [x] Component: `ServicesGrid` (Clean list of services).
 - [x] Component: `AboutSection` (Text + Image layout).
 
-### ⏳ Phase 4: Dynamic Portfolio (Supabase Integration)
-- [ ] Database Check: Ensure `projects` table exists.
-- [ ] Page: `app/work/page.tsx` (List all projects).
-- [ ] Component: `ProjectCard` (Image, Title, Tags).
-- [ ] Logic: Fetch data server-side and render.
+### ✅ Phase 4: Dynamic Portfolio (Supabase Integration)
+- [x] Database Check: Ensure `projects` table exists.
+- [x] Page: `app/work/page.tsx` (List all projects).
+- [x] Component: `ProjectCard` (Image, Title, Tags).
+- [x] Logic: Fetch data server-side and render.
 
 ### ⏳ Phase 5: Contact & Server Actions
 - [ ] Database Check: Ensure `contacts` table exists.
